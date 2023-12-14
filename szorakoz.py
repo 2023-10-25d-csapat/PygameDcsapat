@@ -1,14 +1,5 @@
 import random
 
-def megjelenítés(tszó, tpk):
-  megjelenítés = ''
-  for karakter in tszó:
-    if karakter in tpk:
-      megjelenítés += karakter
-    else:
-      megjelenítés += '_'
-  return megjelenítés
-
 l = ['Debrecen', 'Szeged', 'Csaba', 'Eger']
 szó = random.choice(l)
 tipp = []
