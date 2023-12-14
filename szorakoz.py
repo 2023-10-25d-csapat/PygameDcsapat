@@ -1,4 +1,5 @@
 import random
+from defekt import *
 
 l = ['Debrecen', 'Szeged', 'Csaba', 'Eger']
 szó = random.choice(l)
