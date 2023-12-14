@@ -6,3 +6,5 @@ def megjelenítés(tszó, tpk):
     else:
       megjelenítés += '_'
   return megjelenítés
+  
+def amig(akarsz, tipp, szó):
